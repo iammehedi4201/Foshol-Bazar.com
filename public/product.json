@@ -242,7 +242,7 @@
         "stock": 20,
         "ratings": 4,
         "ratingsCount": 3725,
-        "img": "../src/img/onion/gettyimages-1133769207-612x612.jpg",
+        "img": "./img/onion/gettyimages-1133769207-612x612.jpg",
         "shipping": 1,
         "quantity": 0
     },
@@ -254,7 +254,7 @@
         "stock": 19,
         "ratings": 5,
         "ratingsCount": 4355,
-        "img": "../src/img/onion/gettyimages-1133769207-612x612.jpg",
+        "img": "./img/onion/gettyimages-1133769207-612x612.jpg",
         "shipping": 14,
         "quantity": 0
     },
@@ -266,7 +266,7 @@
         "stock": 20,
         "ratings": 4,
         "ratingsCount": 3972,
-        "img": "../src/img/onion/gettyimages-1133769207-612x612.jpg",
+        "img": "./img/onion/gettyimages-1133769207-612x612.jpg",
         "shipping": 1,
         "quantity": 0
     },
@@ -278,7 +278,7 @@
         "stock": 10,
         "ratings": 5,
         "ratingsCount": 1764,
-        "img": "../src/img/onion/gettyimages-1133769207-612x612.jpg",
+        "img": "./img/onion/gettyimages-1133769207-612x612.jpg",
         "shipping": 32,
         "quantity": 0
     },
@@ -290,7 +290,7 @@
         "stock": 11,
         "ratings": 4,
         "ratingsCount": 799,
-        "img": "../src/img/onion/gettyimages-1133769207-612x612.jpg",
+        "img": "./img/onion/gettyimages-1133769207-612x612.jpg",
         "shipping": 49,
         "quantity": 0
     },
@@ -298,8 +298,13 @@
         "id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
         "category": "vegetable",
         "name": "onion",
-        "price": 138,
-        "stock": 19
+        "price": 287,
+        "stock": 11,
+        "ratings": 4,
+        "ratingsCount": 799,
+        "img": "./img/onion/gettyimages-1133769207-612x612.jpg",
+        "shipping": 49,
+        "quantity": 0
     },
     {
         "id": "d0803f97-966f-4296-ad31-a7f70fc86fab",
@@ -309,7 +314,7 @@
         "stock": 15,
         "ratings": 5,
         "ratingsCount": 3702,
-        "img": "../src/img/onion/gettyimages-1133769207-612x612.jpg",
+        "img": "./img/onion/gettyimages-1133769207-612x612.jpg",
         "shipping": 29,
         "quantity": 0
     },
@@ -321,7 +326,7 @@
         "stock": 6,
         "ratings": 5,
         "ratingsCount": 1688,
-        "img": "../src/img/onion/gettyimages-1133769207-612x612.jpg",
+        "img": "./img/onion/gettyimages-1133769207-612x612.jpg",
         "shipping": 48,
         "quantity": 0
     },
@@ -333,18 +338,19 @@
         "stock": 46,
         "ratings": 4,
         "ratingsCount": 50,
-        "img": "../src/img/onion/gettyimages-1133769207-612x612.jpg",
+        "img": "./img/onion/gettyimages-1133769207-612x612.jpg",
         "shipping": 20,
         "quantity": 0
     },
     {
         "id": "e4220958-06d2-4d50-96fa-0163a563f43d",
         "category": "vegetable",
+        "name": "onion",
         "price": 148,
         "stock": 41,
         "ratings": 3,
         "ratingsCount": 4483,
-        "img": "../src/img/onion/gettyimages-1133769207-612x612.jpg",
+        "img": "./img/onion/gettyimages-1133769207-612x612.jpg",
         "shipping": 8,
         "quantity": 0
     },
@@ -356,7 +362,55 @@
         "stock": 43,
         "ratings": 4,
         "ratingsCount": 1239,
-        "img": "../src/img/onion/gettyimages-1133769207-612x612.jpg",
+        "img": "./img/onion/gettyimages-1133769207-612x612.jpg",
+        "shipping": 27,
+        "quantity": 0
+    },
+    {
+        "id": "ae69f0e4-559c-4b24-8032-80b63f9b5074",
+        "category": "vegetable",
+        "name": "onion",
+        "price": 122,
+        "stock": 43,
+        "ratings": 4,
+        "ratingsCount": 1239,
+        "img": "./img/onion/gettyimages-1133769207-612x612.jpg",
+        "shipping": 27,
+        "quantity": 0
+    },
+    {
+        "id": "ae69f0e4-559c-4b24-8032-80b63f9b5075",
+        "category": "vegetable",
+        "name": "onion",
+        "price": 122,
+        "stock": 43,
+        "ratings": 4,
+        "ratingsCount": 1239,
+        "img": "./img/onion/gettyimages-1133769207-612x612.jpg",
+        "shipping": 27,
+        "quantity": 0
+    },
+    {
+        "id": "ae69f0e4-559c-4b24-8032-80b63f9b5076",
+        "category": "vegetable",
+        "name": "onion",
+        "price": 122,
+        "stock": 43,
+        "ratings": 4,
+        "ratingsCount": 1239,
+        "img": "./img/onion/gettyimages-1133769207-612x612.jpg",
+        "shipping": 27,
+        "quantity": 0
+    },
+    {
+        "id": "ae69f0e4-559c-4b24-8032-80b63f9b5077",
+        "category": "vegetable",
+        "name": "onion",
+        "price": 122,
+        "stock": 43,
+        "ratings": 4,
+        "ratingsCount": 1239,
+        "img": "./img/onion/gettyimages-1133769207-612x612.jpg",
         "shipping": 27,
         "quantity": 0
     },
