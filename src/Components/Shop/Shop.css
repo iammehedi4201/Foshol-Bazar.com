@@ -9,6 +9,7 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 /* @media only screen and (min-width: 1200px) {...} */
 
+
 .shop-section{
 
      width: 100%;
@@ -29,8 +30,41 @@
 .cart-section{
 
     width: 27%;
-    height: auto;
-    border: 2px solid blue;
+    height: 100vh;
     margin: 0px 10px;
 
 }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+
+
+.shop-section{
+
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+   
+   }
+
+.product-section{
+
+    width: 100%!important;
+    height: auto;
+   
+
+}
+.cart-section{
+    
+    width: 100%;
+    height: auto;
+    margin: 10px 0px;
+
+}
+
+
+
+
+ }

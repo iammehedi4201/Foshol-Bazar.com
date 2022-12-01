@@ -16,6 +16,8 @@ function App() {
 
     document.getElementById("input-field").value = '';
 
+    document.getElementById("cart-div").style.display= "block"
+
   };
 
   return (
