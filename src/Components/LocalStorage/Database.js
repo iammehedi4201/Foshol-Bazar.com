@@ -51,8 +51,33 @@ const storedCart=()=>{
 
 }
 
+const deleteAProductFormDb=(id)=>{
+
+     const getCart =localStorage.getItem("shopping-cart")
+     
+     let shoppingObj ={};
+
+     if (getCart) {
+
+         shoppingObj = JSON.parse(getCart);
+
+         if (id in shoppingObj) {
+
+             delete shoppingObj[id];
+
+             localStorage.setItem("shopping-cart",JSON.stringify(shoppingObj));
+            
+         }
+        
+     }
+
+
+
+}
+
 
 export {
     addToDb,
-    storedCart
+    storedCart,
+    deleteAProductFormDb
 }

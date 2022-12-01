@@ -47,7 +47,7 @@ const Cart = (props) => {
     
   }
 
-  console.log("The random Product is:",randomProduct);
+  // console.log("The random Product is:",randomProduct);
 
   return (
     <div id="cart-div"  className="p-3 cart-product-selected-section">
@@ -104,7 +104,7 @@ const Cart = (props) => {
           Cart Calculation
         </h3>
 
-        <h6>Selected Product:-{quantity}</h6>
+        <h6>Selected Product:-{quantityValue}</h6>
         <h6>Total Price:-{sumOfTotalPrice}</h6>
         <h6>Total Shipping Cost:-{sumOfTotalShippingPrice}</h6>
         <h6>Tax:-{tax}</h6>

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Cart from "../Cart/Cart";
-import { addToDb, storedCart } from "../LocalStorage/Database";
+import { addToDb, deleteAProductFormDb, storedCart } from "../LocalStorage/Database";
 import Product from "../Product/Product";
 import "./Shop.css";
 
@@ -20,22 +20,43 @@ const Shop = (props) => {
   }, []);
 
 
-  useEffect(()=>{
 
-     const storedCartItem = storedCart();
-
-    //  console.log("The stored cart item is:",storedCartItem);
-
-    for (const product in storedCartItem) {
-           
-          console.log(product);
-        
-      }
-    }
-
-  ,[])
 
   const selectedProduct = products.filter((product) => product.name === value);
+
+  useEffect(()=>{
+
+    const storedCartItem = storedCart();
+
+   //  console.log("The stored cart item is:",storedCartItem);
+
+   let cartUpdate =[];
+
+   for (const product in storedCartItem) {
+          
+        const getProduct =products.find(item=>item.id === product)
+
+        if (getProduct) {
+
+            const quntaity = storedCartItem[product];
+
+            getProduct.quantity = quntaity;
+
+            cartUpdate.push(getProduct);
+          
+        }  
+
+        console.log("The get Product is:",getProduct);
+     }
+
+       setCartProducts(cartUpdate);
+
+   }
+
+ ,[products])
+
+ 
+ console.log("The car Product is ",cartProduct);
 
   const addToCart =(productDetails)=>{
 
@@ -82,13 +103,17 @@ const Shop = (props) => {
 
   }
 
+  //Delete a Product form cart
+
   const deleteAProduct = (productId)=>{
 
     const restCartItem =cartProduct.filter(item=>item.id !==productId);
 
     if (restCartItem) {
-      
+
       setCartProducts(restCartItem);
+
+      deleteAProductFormDb(productId);
 
     }
 
