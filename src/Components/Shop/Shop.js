@@ -19,6 +19,7 @@ const Shop = (props) => {
       .then((data) => setProducts(data));
   }, []);
 
+  console.log("The car update is:-",cartProduct);
 
 
 
@@ -32,6 +33,7 @@ const Shop = (props) => {
 
    let cartUpdate =[];
 
+ 
    for (const product in storedCartItem) {
           
         const getProduct =products.find(item=>item.id === product)
@@ -43,10 +45,12 @@ const Shop = (props) => {
             getProduct.quantity = quntaity;
 
             cartUpdate.push(getProduct);
+
+         
           
         }  
 
-        console.log("The get Product is:",getProduct);
+        
      }
 
        setCartProducts(cartUpdate);
@@ -56,7 +60,7 @@ const Shop = (props) => {
  ,[products])
 
  
- console.log("The car Product is ",cartProduct);
+
 
   const addToCart =(productDetails)=>{
 

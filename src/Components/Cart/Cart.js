@@ -5,9 +5,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDeleteLeft } from '@fortawesome/free-solid-svg-icons'
 
 const Cart = (props) => {
-  // console.log("The cart product is:",props);
+   
 
-  const[randomProduct,setRandomProduct]=useState("")
+  const[randomProduct,setRandomProduct]=useState("");
 
   const{img,name,quantity,id} = randomProduct
 

@@ -1,0 +1,19 @@
+.carousel-section{
+
+    display: flex;
+    justify-content: center;
+    background-color:rgb(183, 204, 205);
+
+}
+
+.carousel-size{
+
+    width:60%;
+
+}
+.img-size{
+
+     width: 100%;
+     height: 70vh;
+
+}

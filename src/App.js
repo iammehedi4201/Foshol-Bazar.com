@@ -2,6 +2,9 @@ import Header from "./Components/Header/Header";
 import "./App.css";
 import Shop from "./Components/Shop/Shop";
 import { useState } from "react";
+import { Route, Routes } from "react-router-dom";
+import Home from "./Components/Home/Home";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
 
@@ -25,9 +28,18 @@ function App() {
       <Header  
       catchValue={catchValue}
       ></Header>
-      <Shop  
+      {/* <Shop  
       value={inputValue}
-      ></Shop>
+      ></Shop> */}
+      
+      <Routes>
+          <Route path="/" element={<Home/>} ></Route>
+          <Route></Route>
+          <Route></Route>
+      </Routes>
+   
+   <Footer></Footer>
+ 
     </div>
   );
 }

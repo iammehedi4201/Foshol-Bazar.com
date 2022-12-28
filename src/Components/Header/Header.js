@@ -1,10 +1,10 @@
 import React from "react";
 import "./Header.css";
 import logo from "../../logo/logo.png";
+import { NavLink } from "react-router-dom";
 
 const Header = (props) => {
-
-    const{catchValue}=props
+  const { catchValue } = props;
 
   function updatemenu() {
     if (document.getElementById("responsive-menu").checked == true) {
@@ -14,7 +14,6 @@ const Header = (props) => {
       document.getElementById("menu").style.borderRadius = "6px";
     }
   }
-
 
   return (
     <div className="App-header">
@@ -32,32 +31,33 @@ const Header = (props) => {
 
         <ul>
           <li>
-            <a href="http://">Homei</a>
+            <NavLink
+              to="/"
+              style={({ isActive }) => ({ color: isActive ? "red" : "white" })}
+            >
+              Home
+            </NavLink>
+          </li>
+          <NavLink
+            to=""
+            style={({ isActive }) => ({ color: isActive ? "red" : "white" })}
+          >
+            About Us
+          </NavLink>
+          <li>
+            <NavLink
+              to=""
+              style={({ isActive }) => ({ color: isActive ? "red" : "white" })}
+            >
+              Shop
+            </NavLink>
           </li>
           <li>
-            <a class="dropdown-arrow">Products</a>
-            <ul class="sub-menus">
-              <li>
-                <a href="http://">Products 1</a>
-              </li>
-              <li>
-                <a href="http://">Products 2</a>
-              </li>
-              <li>
-                <a href="http://">Products 3</a>
-              </li>
-              <li>
-                <a href="http://">Products 4</a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a href="http://">About</a>
-          </li>
-          <li>
-            <a class="dropdown-arrow" href="http://">
+          <NavLink className="dropdown-arrow" to=""
+              style={({ isActive }) => ({ color: isActive ? "red" : "white" })}
+            >
               Services
-            </a>
+            </NavLink>
             <ul class="sub-menus">
               <li>
                 <a href="http://">Services 1</a>
@@ -71,27 +71,33 @@ const Header = (props) => {
             </ul>
           </li>
           <li>
-            <a href="http://">Contact Us</a>
+            <NavLink
+              to=""
+              style={({ isActive }) => ({ color: isActive ? "red" : "white" })}
+            >
+              Contact Us
+            </NavLink>
           </li>
         </ul>
 
         <div className="search-section">
-        <form className="d-flex ">
-          <input
-            id="input-field"
-            className="form-control  "
-            type="search"
-            placeholder="Enter Product Name "
-            aria-label="Search"
-          />
-          <button onClick={catchValue} className="btn btn-outline-success" type="submit">
-            Search
-          </button>
-        </form>
-
+          <form className="d-flex ">
+            <input
+              id="input-field"
+              className="form-control  "
+              type="search"
+              placeholder="Enter Product Name "
+              aria-label="Search"
+            />
+            <button
+              onClick={catchValue}
+              className="btn btn-outline-success"
+              type="submit"
+            >
+              Search
+            </button>
+          </form>
         </div>
-
-       
       </nav>
     </div>
   );
