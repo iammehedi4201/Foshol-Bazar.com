@@ -15,6 +15,8 @@ const Header = (props) => {
     }
   }
 
+  
+
   return (
     <div className="App-header">
       <nav id="menu">
@@ -39,20 +41,20 @@ const Header = (props) => {
             </NavLink>
           </li>
           <NavLink
-            to=""
+            to="/About"
             style={({ isActive }) => ({ color: isActive ? "red" : "white" })}
           >
             About Us
           </NavLink>
           <li>
             <NavLink
-              to=""
+              to="/Shop"
               style={({ isActive }) => ({ color: isActive ? "red" : "white" })}
             >
               Shop
             </NavLink>
           </li>
-          <li>
+          {/* <li>
           <NavLink className="dropdown-arrow" to=""
               style={({ isActive }) => ({ color: isActive ? "red" : "white" })}
             >
@@ -69,13 +71,13 @@ const Header = (props) => {
                 <a href="http://">Services 3</a>
               </li>
             </ul>
-          </li>
+          </li> */}
           <li>
             <NavLink
-              to=""
+              to="/Order"
               style={({ isActive }) => ({ color: isActive ? "red" : "white" })}
             >
-              Contact Us
+               Order Review
             </NavLink>
           </li>
         </ul>

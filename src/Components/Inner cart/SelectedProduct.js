@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDeleteLeft } from '@fortawesome/free-solid-svg-icons'
+import { faTrashAlt } from '@fortawesome/free-solid-svg-icons'
 import React from "react";
 import './SelectedProduct.css'
 
@@ -16,8 +16,8 @@ const SelectedProduct = (props) => {
     <div className="cart-inner-section">
       <div className="card mb-3 ">
         <div className="row g-0 card-div">
-          <div className="col-md-4 col-6">
-            <img src={img} className="img-fluid rounded-start" alt="..." />
+          <div className="col-md-4 col-6 card-div-col">
+            <img src={img} className="rounded-start card-div-img" alt="..." />
           </div>
           <div className="col-md-8 col-6">
             <div className="card-body card-body-div">
@@ -26,8 +26,8 @@ const SelectedProduct = (props) => {
                     <h6 className="text-size">Quantity:-{quantity}</h6>
                   </div>
               
-                 <button onClick={()=>deleteAProduct(id)} className="btn" >
-                   <FontAwesomeIcon  className="icon" icon={faDeleteLeft}></FontAwesomeIcon>
+                 <button onClick={()=>deleteAProduct(id)}       className="btn btn-edit" >
+                   <FontAwesomeIcon className="icon-edit" icon={faTrashAlt}></FontAwesomeIcon>
                  </button>
             </div>
           </div>
