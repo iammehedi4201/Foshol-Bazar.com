@@ -38,7 +38,7 @@ const Order = () => {
 
         <section className="Cart-section">
           <Cart cartProduct={cartProduct}>
-            <div class="d-grid gap-2 mb-3">
+          <div class="d-grid gap-2 mb-3">
               <button class="btn btn-outline-danger" type="button">
                 Clear Cart
               </button>
