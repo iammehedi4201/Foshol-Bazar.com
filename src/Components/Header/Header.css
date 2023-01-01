@@ -1,15 +1,16 @@
 .App-header{
 
     width: 100%;
-    height: 10vh;
+    min-height: 10vh;
     
 }
 #menu {
    width:100;
-   height:100%;
+   height: auto;
    border: 2px solid black;
    background-color: #111;
    display: flex;
+   align-items: center;
    justify-content: flex-start;
    position: relative;
    
@@ -37,11 +38,11 @@
 }
 #menu ul {
   width: 60%;
-  height: 100%;
+  height: auto;
   list-style-type: none;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  margin-bottom: 0px;
 
 	
 }
@@ -157,7 +158,7 @@
 	#menu {
 		position:relative;
 		width: 100%;
-		height: 100%;
+		height: auto;
         display: flex;
         justify-content:space-between;
         

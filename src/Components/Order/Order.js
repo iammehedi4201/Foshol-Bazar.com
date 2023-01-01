@@ -4,7 +4,7 @@ import useCart from "../Hooks/useCart";
 import useProduct from "../Hooks/useProduct";
 import SelectedProduct from "../Inner cart/SelectedProduct";
 import { deleteAProductFormDb } from "../LocalStorage/Database";
-import Product from "../Product/Product";
+
 import "./Order.css";
 
 const Order = () => {

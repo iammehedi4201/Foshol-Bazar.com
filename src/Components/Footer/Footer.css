@@ -1,10 +1,9 @@
 .footer-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    min-height: 5vh;
+    width: 100%;
+    display: grid;
+    place-content:center;
     background-color: black;
     color: red;
-    height: 10vh;
-    
 
 }

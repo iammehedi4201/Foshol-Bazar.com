@@ -45,7 +45,6 @@ function App() {
         <Route path="/Order" element={<Order />}></Route>
         <Route path="*" element={<Error />}></Route>
       </Routes>
-
       <Footer></Footer>
     </div>
   );

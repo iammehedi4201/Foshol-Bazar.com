@@ -123,7 +123,7 @@ const Shop = (props) => {
       </div>
 
       <div className="cart-section">
-        <Cart cartProduct={cartProduct} deleteAProduct={deleteAProduct}>
+        <Cart cartProduct={cartProduct} >
               <div class="d-grid gap-2 mb-3">
               <button
                 class="btn btn-outline-danger"

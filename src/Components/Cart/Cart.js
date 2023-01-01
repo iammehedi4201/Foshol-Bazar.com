@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Alert from "react-bootstrap/Alert";
 import "./Cart.css";
 
 const Cart = (props) => {
@@ -38,7 +39,6 @@ const Cart = (props) => {
     setRandomProduct(randomItem);
 
     document.getElementById("selectRandomProduct").style.display = "block";
-    document.getElementById("cart-div").style.display = "block";
   };
 
   // console.log("The random Product is:",randomProduct);
@@ -50,6 +50,22 @@ const Cart = (props) => {
           Cart Calculation
         </h3>
 
+        {
+           quantityValue == 0 ?   <div>
+           {["warning"].map((variant) => (
+             <Alert key={variant} variant={variant}>
+                Please Add Something to Cart
+             </Alert>
+           ))}
+         </div> :   <div>
+            {["success"].map((variant) => (
+              <Alert key={variant} variant={variant}>
+                   Thank you for adding
+              </Alert>
+            ))}
+          </div>
+        }
+
         <h6>Selected Product:-{quantityValue}</h6>
         <h6>Total Price:-{sumOfTotalPrice}</h6>
         <h6>Total Shipping Cost:-{sumOfTotalShippingPrice}</h6>
@@ -57,15 +73,17 @@ const Cart = (props) => {
         <h6>Grand Total:-{grandTotal}</h6>
       </div>
 
-      <div class="d-grid gap-2 mb-3">
-        <button
-          onClick={sleetedRandomProduct}
-          class="btn btn-outline-success"
-          type="button"
-        >
-          Choose 1 For Me
-        </button>
-      </div>
+      {quantityValue > 5 && (
+        <div class="d-grid gap-2 mb-3">
+          <button
+            onClick={sleetedRandomProduct}
+            class="btn btn-outline-success"
+            type="button"
+          >
+            Choose 1 For Me
+          </button>
+        </div>
+      )}
 
       <div id="selectRandomProduct">
         <div className="card mb-3 ">
@@ -85,15 +103,17 @@ const Cart = (props) => {
         </div>
       </div>
 
-      <div class="d-grid gap-2 mb-3">
-        <button
-          onClick={sleetedRandomProduct}
-          class="btn btn-outline-success"
-          type="button"
-        >
-          Choose Again
-        </button>
-      </div>
+      {quantityValue > 5 && (
+        <div class="d-grid gap-2 mb-3">
+          <button
+            onClick={sleetedRandomProduct}
+            class="btn btn-outline-success"
+            type="button"
+          >
+            Choose Again
+          </button>
+        </div>
+      )}
       {props.children}
     </div>
   );
