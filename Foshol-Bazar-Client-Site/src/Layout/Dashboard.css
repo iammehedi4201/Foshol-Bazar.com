@@ -1,0 +1,14 @@
+.drawer {
+  position: relative;
+  display: grid;
+  grid-auto-columns: max-content auto;
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .drawer {
+    position: relative;
+    display: block;
+    width: 100%;
+  }
+}

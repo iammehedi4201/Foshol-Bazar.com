@@ -1,0 +1,38 @@
+>>>>npm install aos@latest firebase@latest react-hot-toast@latest react-rating@latest react-router-dom@latest   react-scroll-to-top@latest sweetalert2@latest swiper@latest tailwindcss@latest daisyui@latest --save
+
+-----------------------------------
+>>>>After clone the project : 
+     1-npm install
+     2-npm run dev
+-----------------------------------
+
+>>>>For Firebase Key project : 
+     1-Create .env.local 
+     2- Copy this and paste to .env.local :
+        VITE_apiKey=AIzaSyB9U8P2Jjlbh0XN8yTgNShyY4aiCbdZqWQ
+        VITE_authDomain=fleet-fusion.firebaseapp.com
+        VITE_projectId=fleet-fusion
+        VITE_storageBucket=fleet-fusion.appspot.com
+        VITE_messagingSenderId=746211820327
+        VITE_appId=1:746211820327:web:4a2de46602b71a9e1a5f02
+        VITE_Publishable_key=pk_test_51NPIyRJwE9HNoMURXZL4BUchtjDcpGlmsrKmculL4Hh5CMUlO99DYksCHfFJ0KJcaolkE1SmHh0to6Hx1LPBIWNe005aaWRNEO
+     3-Use this in firebase.config.js :
+        import { initializeApp } from "firebase/app";
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+        apiKey: import.meta.env.VITE_apiKey,
+        authDomain: import.meta.env.VITE_authDomain,
+        projectId: import.meta.env.VITE_projectId,
+        storageBucket: import.meta.env.VITE_storageBucket,
+        messagingSenderId: import.meta.env.VITE_messagingSenderId,
+        appId: import.meta.env.VITE_appId,
+        };
+        // Initialize Firebase
+        export const app = initializeApp(firebaseConfig);                            
+-----------------------------------------------------------
+    fetch('')
+    .then(res=>res.json())
+    .then(data=>{
+        console.log(data);
+    })
+    .catch(error=>console.error(error))

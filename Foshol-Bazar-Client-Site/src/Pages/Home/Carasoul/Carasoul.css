@@ -1,0 +1,39 @@
+.section-back-text {
+  font-size: 20vw;
+  max-width: 100vw;
+  overflow: hidden;
+  position: absolute;
+  right: 50%;
+  bottom: 50%;
+  color: #fff;
+  -webkit-transform: translate(50%, 50%);
+  -moz-transform: translate(50%, 50%);
+  -o-transform: translate(50%, 50%);
+  -ms-transform: translate(50%, 50%);
+  transform: translate(40%, 60%);
+  opacity: 0.01;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+  filter: alpha(opacity=10);
+  font-weight: 500;
+  font-family: "Rubik";
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.bg-img-style{
+    width: 100%;
+    height: 100%;
+    background-image: url('./high-angle-view-raw-vegetables-black-wooden-backdrop.jpg');
+   background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 470px) {
+  .carasoul-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

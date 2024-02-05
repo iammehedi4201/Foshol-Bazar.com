@@ -1,0 +1,388 @@
+[
+    {
+      "name": "Pumpkin",
+      "rating": 4.5,
+      "price":90,
+      "categories": "Vegetables",
+      "description": "Fresh and nutritious pumpkin for your culinary needs. Great for soups, pies, and roasting.",
+      "img": "https://i.ibb.co/dKBd6Nz/pumpkin.jpg"
+    },
+    {
+      "name": "Tomato",
+      "rating": 4.8,
+      "price":40,
+      "categories": "Vegetables",
+      "description": "Juicy and ripe tomatoes, perfect for salads and cooking. Adds flavor to any dish.",
+      "img": "https://i.ibb.co/QbgdmrP/tomato.jpg"
+    },
+    {
+      "name": "Banana",
+      "rating": 4.7,
+      "price":40,
+      "categories": "Fruits",
+      "description": "Sweet and energy-boosting bananas for a healthy snack. Packed with potassium.",
+      "img": "https://i.ibb.co/FBcRNfX/banana.jpg"
+    },
+    {
+      "name": "Blueberry",
+      "rating": 4.6,
+      "price":90,
+      "categories": "Fruits",
+      "description": "Plump and antioxidant-rich blueberries for your breakfast. Enhance your yogurt or cereal.",
+      "img": "https://i.ibb.co/p1bngYn/blueberry.jpg"
+    },
+    {
+      "name": "Cucumber",
+      "rating": 4.4,
+      "price":90,
+      "categories": "Vegetables",
+      "description": "Cool and hydrating cucumbers, great for salads and snacks. Low in calories.",
+      "img": "https://i.ibb.co/fkkkbXb/cucumber.jpg"
+    },
+    {
+      "name": "Orange",
+      "rating": 4.9,
+      "price":70,
+      "categories": "Fruits",
+      "description": "Tangy and vitamin C-rich oranges to boost your immune system. Juicy and refreshing.",
+      "img": "https://i.ibb.co/WfHRLvz/orange.jpg"
+    },
+    {
+      "name": "Pepper",
+      "rating": 4.3,
+      "price":20,
+      "categories": "Vegetables",
+      "description": "Colorful bell peppers that add flavor to your dishes. Grill or use in stir-fries.",
+      "img": "https://i.ibb.co/1qrgxMg/pepper.jpg"
+    },
+    {
+      "name": "Potato",
+      "rating": 4.6,
+      "price":60,
+      "categories": "Vegetables",
+      "description": "Versatile potatoes that can be roasted, mashed, or fried. A staple in many cuisines.",
+      "img": "https://i.ibb.co/P4gSRrK/potato.jpg"
+    },
+    {
+      "name": "Apple",
+      "rating": 4.5,
+      "price":70,
+      "categories": "Fruits",
+      "description": "Crisp and juicy apple, perfect for snacking or baking. A classic favorite.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/265px-Red_Apple.jpg"
+    },
+    {
+      "name": "Grapes",
+      "rating": 4.6,
+      "price":90,
+      "categories": "Fruits",
+      "description": "Sweet and flavorful grapes, great for on-the-go snacks or as a dessert.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Table_grapes_on_white.jpg/320px-Table_grapes_on_white.jpg"
+    },
+    {
+      "name": "Pineapple",
+      "rating": 4.7,
+      "price":40,
+      "categories": "Fruits",
+      "description": "Tropical and refreshing pineapple, ideal for adding a burst of flavor to your dishes.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Pineapple_and_cross_section.jpg/286px-Pineapple_and_cross_section.jpg"
+    },
+  
+    {
+      "name": "Komola Orange",
+      "rating": 4.6,
+      "price":90,
+      "categories": "Fruits ",
+      "description": "Imported sweet and tangy Komola Orange. Available in 50 gm to 1 kg sizes.",
+      "img": "https://i.ibb.co/5nzJfd5/komola-Orange-imported-50-gm-1-kg.webp"
+    },
+    {
+      "name": "Mint",
+      "rating": 4.4,
+      "price":80,
+      "categories": "Herbs",
+      "description": "Fresh and aromatic mint leaves. Comes in a package of 6.5 ct.",
+      "img": "https://i.ibb.co/RyjjDYT/Mint-6-5ct.webp"
+    },
+    {
+      "name": "Organic Ginger Root",
+      "rating": 4.8,
+      "price":40,
+      "categories": "Spices Organic",
+      "description": "Organic ginger root, sold per lb. A versatile and flavorful spice.",
+      "img": "https://i.ibb.co/89wcrxK/Organic-Ginger-Root-per-lb.webp"
+    },
+    {
+      "name": "Organic Green Cauliflower",
+      "rating": 4.5,
+      "price":90,
+      "categories": "Vegetables Organic",
+      "description": "Organic green cauliflower, sold in 1 lb packages. A unique and nutritious option.",
+      "img": "https://i.ibb.co/3W5nrGp/Organic-Green-Cauliflower-1lb.webp"
+    },
+    {
+      "name": "Organic Pinkerton Avocado",
+      "rating": 4.7,
+      "price":70,
+      "categories": "Fruits Organic",
+      "description": "Organic Pinkerton avocado, available individually. Creamy and delicious.",
+      "img": "https://i.ibb.co/KDkn3hb/Organic-Pinkerton-Avocado-each.webp"
+    },
+    {
+      "name": "Organic Purple Cauliflower",
+      "rating": 4.3,
+      "price":90,
+      "categories": "Vegetables Organic",
+      "description": "Organic purple cauliflower, sold in 1 lb packages. Adds color to your meals.",
+      "img": "https://i.ibb.co/jV7Ttqr/Organic-Purple-Cauliflower-1lb.webp"
+    },
+    {
+      "name": "Organic White Radish",
+      "rating": 4.4,
+      "price":90,
+      "categories": "Vegetables Organic",
+      "description": "Organic white radish, available individually. Crisp and refreshing.",
+      "img": "https://i.ibb.co/5XH3Cvn/Organic-White-Radish-each.webp"
+    },
+    {
+      "name": "Paka Pape",
+      "rating": 4.2,
+      "price":40,
+      "categories": "Fruits",
+      "description": "Flavorful Paka Pape seasoning, available in 50 gm to 1 kg sizes.",
+      "img": "https://i.ibb.co/j4nhLHM/paka-pape-50-gm-1-kg.webp"
+    },
+    {
+      "name": "Parsley",
+      "rating": 4.6,
+      "price":70,
+      "categories": "Herbs",
+      "description": "Fresh parsley herb, available individually. Adds a burst of flavor to dishes.",
+      "img": "https://i.ibb.co/5kWVh4b/Parsley-each.webp"
+    },
+    {
+      "name": "Pineapple",
+      "rating": 4.8,
+      "price":40,
+      "categories": "Fruits",
+      "description": "Sweet and tropical pineapple, sold in 1.5 lb packages. Perfect for snacking and desserts.",
+      "img": "https://i.ibb.co/QYBkzT9/Pineapple-1-5lb.jpg"
+    },
+    {
+      "name": "Rainbow Chard",
+      "rating": 4.3,
+      "price":90,
+      "categories": "Vegetables",
+      "description": "Rainbow Chard vegetable, sold per lb. Colorful addition to your meals.",
+      "img": "https://i.ibb.co/2WHLgpS/Rainbow-Chard-Package-per-lb.webp"
+    },
+    {
+      "name": "Strawberries",
+      "rating": 4.7,
+      "price":90,
+      "categories": "Fruits Berries",
+      "description": "Strawberries package, 2.25 oz. Sweet and juicy berries for your snacks and desserts.",
+      "img": "https://i.ibb.co/C2scnWM/Strawberries-Package-2-25-oz.webp"
+    },
+    {
+      "name": "Yellow Sweet Corn",
+      "rating": 4.5,
+      "price":90,
+      "categories": "Vegetables",
+      "description": "Yellow sweet corn, sold individually. Classic summer treat.",
+      "img": "https://i.ibb.co/YdJFjHB/Yellow-Sweet-Corn-Bag-each.webp"
+    },
+    {
+      "name": "Ahold Acorn Squash",
+      "rating": 4.1,
+      "price":70,
+      "categories": "Vegetables",
+      "description": "Ahold Acorn Squash, sold individually. Nutty and flavorful winter squash.",
+      "img": "https://i.ibb.co/LrQbsx6/Ahold-Acorn-Squash-1ct.webp"
+    },
+    {
+      "name": "Avocado Juice",
+      "rating": 4.9,
+      "price":90,
+      "categories": "Fruits Beverages",
+      "description": "Avocado Juice, made from fresh fruit. A refreshing and healthy beverage option.",
+      "img": "https://i.ibb.co/4W2fYGj/avocado-juice-fruit-vegetable.webp"
+    },
+    {
+      "name": "Bicolor Sweet Corn",
+      "rating": 4.4,
+      "price":40,
+      "categories": "Vegetables",
+      "description": "Bicolor sweet corn, 43ct package. Enjoy the blend of flavors.",
+      "img": "https://i.ibb.co/THJ5Yn6/Bicolor-Sweet-Corn-43ct.webp"
+    },
+    {
+      "name": "Blackberries",
+      "rating": 4.7,
+      "price":40,
+      "categories": "Fruits Berries",
+      "description": "Blackberries, 1.25 qt package. Rich and dark berries bursting with sweetness.",
+      "img": "https://i.ibb.co/stDJcQw/Blackberries-1-25-qt.jpg"
+    },
+    {
+      "name": "Bok Choy Cabbage",
+      "rating": 4.2,
+      "price":20,
+      "categories": "Vegetables",
+      "description": "Bok Choy Cabbage, sold per lb. Adds a unique flavor to Asian dishes.",
+      "img": "https://i.ibb.co/k2vkVj1/Bok-Choy-Cabbage-per-lb.jpg"
+    },
+    {
+      "name": "Calabaza Squash",
+      "rating": 4.3,
+      "price":90,
+      "categories": "Vegetables",
+      "description": "Calabaza Squash, sold individually. Sweet and versatile squash variety.",
+      "img": "https://i.ibb.co/bvmGyJ0/Calabaza-Squash-Package-each.webp"
+    },
+    {
+      "name": "Clementine",
+      "rating": 4.6,
+      "price":40,
+      "categories": "Fruits Citrus",
+      "description": "Clementine, package of 5 ct. Easy-to-peel citrus fruit, perfect for snacks.",
+      "img": "https://i.ibb.co/RzqfmZD/Clementine-5ct.webp"
+    },
+    {
+      "name": "French Green Beans",
+      "rating": 4.4,
+      "price":90,
+      "categories": "Vegetables",
+      "description": "French Green Beans, package of 16 ct. Delicate and tender beans.",
+      "img": "https://i.ibb.co/KhtPLG5/French-Green-Beans-16ct.webp"
+    },
+    {
+      "name": "Green Leaf Lettuce",
+      "rating": 4.7,
+      "price":40,
+      "categories": "Vegetables",
+      "description": "Green Leaf Lettuce, sold individually. Crisp and fresh base for salads.",
+      "img": "https://i.ibb.co/qNDtYZg/Green-Leaf-Lettuce-each.jpg"
+    },
+    {
+      "name": "Haitian Mango",
+      "rating": 4.8,
+      "price":90,
+      "categories": "Fruits",
+      "description": "Haitian Mango, package of 8 ct. Sweet and tropical mangoes.",
+      "img": "https://i.ibb.co/bvQtgmK/Haitian-Mango-8ct.webp"
+    },
+    {
+      "name": "Garlic",
+      "rating": 4.6,
+      "price":90,
+      "categories": "Spices Organic",
+      "description": "Fresh and aromatic garlic, perfect for adding flavor to your dishes. Loose pack of 1 kg.",
+      "img": "https://i.ibb.co/GFjvhhS/Garlic-Roshun-Deshi-Loose-P-1-Kg.webp"
+    },
+    {
+      "name": "Jambura Pomelo",
+      "rating": 4.4,
+      "price":40,
+      "categories": "Fruits",
+      "description": "Jambura Pomelo, a large and citrusy fruit with a unique flavor. Sold individually.",
+      "img": "https://i.ibb.co/w7k3X8r/jambura-pomelo-1-pcs.webp"
+    },
+    {
+      "name": "Onion",
+      "rating": 4.7,
+      "price":70,
+      "categories": "Spices Organic",
+      "description": "Local onions, loose pack of 1 kg. A versatile ingredient for various dishes.",
+      "img": "https://i.ibb.co/zRgvK5h/Onion-Local-Loose-Kg-1-Kg.webp"
+    },
+    {
+      "name": "Dates Khejur Lulu",
+      "rating": 4.5,
+      "price":90,
+      "categories": "Fruits",
+      "description": "Dates Khejur Lulu, loose pack per kg. Sweet and nutritious dried fruits.",
+      "img": "https://i.ibb.co/nBpzBjk/Dates-Khejur-Lulu-Loose-Kg.webp"
+    },
+    {
+      "name": "Fresh Soyabean Oil",
+      "rating": 4.8,
+      "price":90,
+      "categories": "Cooking Oils",
+      "description": "High-quality Fresh Soyabean Oil, available in a 5 Ltr package. Ideal for cooking and frying.",
+      "img": "https://i.ibb.co/zbp9CZx/Fresh-Soyabean-Oil-5-Ltr.webp"
+    },
+    {
+      "name": "Fresh Mustard Oil",
+      "rating": 4.7,
+      "price":40,
+      "categories": "Cooking Oils",
+      "description": "Aromatic Fresh Mustard Oil, 500ml bottle. Adds a distinctive flavor to your cooking.",
+      "img": "https://i.ibb.co/cyrqts0/Fresh-Mustard-Oil-500ml.webp"
+    },
+    {
+      "name": "Kalijira Premium Rice",
+      "rating": 4.7,
+      "price":90,
+      "categories": "Rice",
+      "description": "Kalijira Premium Rice, loose pack of 1 kg. Aromatic and flavorful rice variety.",
+      "img": "https://i.ibb.co/vYxPyJJ/Kalijira-Premium-Rice-Loose-Kg-1-Kg.webp"
+    },
+    {
+      "name": "Aarong Kataribhog Rice",
+      "rating": 4.8,
+      "price": 90,
+      "categories": "Rice",
+      "description": "Aarong Kataribhog Rice, 5 kg pack. A premium rice variety known for its fragrance.",
+      "img": "https://i.ibb.co/mG02JkK/Aarong-Kataribhog-Rice-5-Kg.webp"
+    },
+    {
+      "name": "Aarong Nazirshail Rice",
+      "rating": 4.6,
+      "price":90,
+      "categories": "Rice",
+      "description": "Aarong Nazirshail Rice, 5 kg pack. A popular rice variety with a unique taste.",
+      "img": "https://i.ibb.co/WPkK6wr/Aarong-Nazirshail-Rice-5-Kg.webp"
+    },
+    {
+      "name": "ACI Aroma Mustard Oil",
+      "rating": 4.9,
+      "price":40,
+      "categories": "Cooking Oils",
+      "description": "ACI Aroma Mustard Oil, 1 Ltr bottle. Infuse your dishes with the flavor of mustard.",
+      "img": "https://i.ibb.co/KNcdVrY/ACI-Aroma-Mustard-Oil-1-Ltr.webp"
+    },
+    {
+      "name": "ACI Pure Mustard Oil",
+      "rating": 4.5,
+      "price":90,
+      "categories": "Cooking Oils",
+      "description": "ACI Pure Mustard Oil, 200ml bottle. A staple for cooking traditional dishes.",
+      "img": "https://i.ibb.co/ZBg9xxG/ACI-Pure-Mustard-Oil-200ml.webp"
+    },
+    {
+      "name": "Chinigura Premium Rice",
+      "rating": 4.7,
+      "price":90,
+      "categories": "Rice",
+      "description": "Chinigura Premium Rice, loose pack of 1 kg. Aromatic and flavorful rice variety.",
+      "img": "https://i.ibb.co/WcGBJTj/Chinigura-Premium-Rice-Loose-Kg-1-Kg.webp"
+    },
+    {
+      "name": "Fortune Rice Bran Oil",
+      "rating": 4.6,
+      "price":90,
+      "categories": "Cooking Oils",
+      "description": "Fortune Rice Bran Oil, 5ltr PET bottle. A healthy and versatile cooking oil.",
+      "img": "https://i.ibb.co/DgRHhV4/Fortune-Rice-Bran-Oil-Pet-5ltr.webp"
+    },
+    {
+      "name": "Fresh Chinigura Rice",
+      "rating": 4.8,
+      "price":40,
+      "categories": "Rice",
+      "description": "Fresh Chinigura Rice, 1kg pack. Known for its unique aroma and taste.",
+      "img": "https://i.ibb.co/c6db8Xn/Fresh-Chinigura-Rice-1kg.webp"
+    }
+  ]
+  

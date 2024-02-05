@@ -1,0 +1,23 @@
+--------------------------------
+>>>>For .env file first:
+    1: .env create file 
+    2: MONGO_URI = put the mongoDb connection lin here
+---------------------------------
+>>>>For MongoDb Connection :
+    1-Always copy the user name and passowrd and store it somewhere
+    2-Select the Cloud Enviroment 
+    3-On 0.0.0.0 Ip address in Network Access so that anywhere you can access the mongo db
+
+----------------------------------
+>>>>After cloning the project :
+    1-npm install 
+    2-nodemon index.js 
+---------------------------------
+>>>>>Jwt SetUp
+      $ npm install jsonwebtoken
+      const jwt = require('jsonwebtoken')
+>>>>>For creating jwt scraet key :
+      frist write node in the terminal then enter
+      require('crypto').randomBytes(64).toString('hex')
+      take key without the doubleClone or singleClone 
+      then env file write ACCESS_TOKEN_SCRETE_KEY = enter you key that copy form terminal

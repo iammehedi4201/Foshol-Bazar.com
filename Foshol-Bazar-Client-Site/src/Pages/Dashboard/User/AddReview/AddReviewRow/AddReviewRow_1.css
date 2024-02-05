@@ -1,0 +1,5 @@
+.btn.btn-disabled,
+.btn[disabled],
+.btn:disabled {
+   color: white;
+}

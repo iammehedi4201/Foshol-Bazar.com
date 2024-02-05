@@ -1,0 +1,23 @@
+1---Create Dashboard link in the navbar link if Admin then show admin dashboard and or not then show user dashboard
+
+1.1---Make Admin private route for make the admin route more secure
+
+2---If we click cart icon it will then take me to my cart
+
+9-implement sslCommerz paymentget
+
+3---Add a route payment history to show  payment history 
+
+4---Add a Review route to send Review route 
+
+5---make a admin navbar and header fixed for all admin route
+
+6---make  a fixed section header for all secton that will share this section header it will better if you make component of section header then share component with others if they need
+
+7-make a managebookings route 
+
+8-make a a add items route 
+
+
+
+
